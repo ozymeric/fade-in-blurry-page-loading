@@ -1,5 +1,41 @@
 /*______________ MY SOLUTION: */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  filter: blur(20px);
+}
+
+.loading-text {
+  font-size: 5rem;
+  color: wheat;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
 /*______________ UDEMY SOLUTION: */
 
 /*

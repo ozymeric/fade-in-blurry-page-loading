@@ -1,5 +1,27 @@
 // _________ MY SOLUTION:
 
+let perCentText = document.querySelector("span");
+let textDiv = document.querySelector(".loading-text");
+let backgroundImg = document.querySelector(".bg");
+
+let perCentIndex = 0;
+
+let displayIndexNums = setInterval(perCentAugmenter, 30);
+
+function perCentAugmenter() {
+  perCentIndex++;
+
+  if (perCentIndex > 99) {
+    clearInterval(displayIndexNums);
+  }
+  perCentText.textContent = perCentIndex;
+
+  let dividedIndex = perCentIndex / 5;
+  textDiv.style.opacity = `${1 - 0.01 * perCentIndex}`;
+  backgroundImg.style.filter = `blur(${20 - dividedIndex}px)`;
+  console.log(`${20 - dividedIndex}px`);
+}
+
 //______ UDEMY SOLUTION:
 /*
 const loadText = document.querySelector('.loading-text')
