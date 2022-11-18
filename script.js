@@ -1,3 +1,6 @@
+// _________ MY SOLUTION:
+
+//______ UDEMY SOLUTION:
 /*
 const loadText = document.querySelector('.loading-text')
 const bg = document.querySelector('.bg')
