@@ -23,6 +23,11 @@ function perCentAugmenter() {
 }
 
 //______ UDEMY SOLUTION:
+
+/*
+########################### !!! SCALE METHOD IS EXTREMELY IMPORTANT HERE !!! #############################
+*/
+
 /*
 const loadText = document.querySelector('.loading-text')
 const bg = document.querySelector('.bg')
